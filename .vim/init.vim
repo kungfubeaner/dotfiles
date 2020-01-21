@@ -1,0 +1,1 @@
+/home/dman79/.vimrc

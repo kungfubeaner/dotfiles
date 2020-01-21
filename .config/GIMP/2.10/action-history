@@ -1,0 +1,7 @@
+# GIMP action-history
+
+(history-item "tools-free-select" 1)
+(history-item "filters-hue-chroma" 0)
+(history-item "filters-hue-saturation" 1)
+
+# end of action-history

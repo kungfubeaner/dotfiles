@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/dman79/nagra2/.git'
+let g:netrw_dirhist_2='/home/dman79/temp/wallpapers/Spacescapes'
+let g:netrw_dirhist_1='/home/dman79/temp/wallpapers/Cityscapes'
