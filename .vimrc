@@ -14,6 +14,8 @@ if $TERM == "screen" | set t_Co=256 | endif
 autocmd filetype c nnoremap <buffer> <F5> :w<cr>:!rm %:r \| gcc -o %:r % && %:r<cr>
 autocmd filetype cpp nnoremap <buffer> <F5> :w<cr>:!rm %:r \| g++ -o %:r % && %:r<cr>
 autocmd filetype python nnoremap <buffer> <F5> :w<cr>:!%<cr>
+autocmd bufadd * set number
+autocmd termopen * set nonumber
 nnoremap <C-D> <C-B>
 nnoremap <A-=> <C-w>=
 nnoremap <A-f> <C-w>_<C-w>\|
