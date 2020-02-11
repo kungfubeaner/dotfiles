@@ -25,7 +25,7 @@ alias trans='trans :en+es -b'
 alias vimode='set -o vi && bind "set show-mode-in-prompt on"'
 alias emacsmode='set -o emacs && bind "set show-mode-in-prompt off"'
 alias getip='curl -s checkip.dyndns.org | sed -n "s/.*\(IP Address: .*\)<\/b.*$/\n  \1\n/p"'
-alias weather2='echo -e "\n$(curl -s wttr.in/{Houston,Hesperia}?format="%20%20%l,%20%c%20%20%C,%20%t,%20%w")\n"'
+alias weather2='echo -e "\n$(curl -s "wttr.in/{Houston,Hesperia}?format=%20%20%l,%20%c%20%20%C,%20%t,%20%w")\n"'
 alias gold='curl -sL https://kitco.com | sed -n "s/.*AU-low.>\([0-9]\{1,4\}\.[0-9]\{2\}\).*AU-high.>\([0-9]\{1,4\}\.[0-9]\{2\}\).*$/\n  Gold Price:\n  low:\1  high:\2\n/p"'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias mapscii='telnet mapscii.me'
@@ -50,3 +50,5 @@ export PYTHONDONTWRITEBYTECODE=X
 export PATH=$PATH:.:~/.local/bin:~/scripts
 export LS_COLORS=$LS_COLORS'di=0;36:ow=0;35:'
 export EDITOR=vim
+
+source /home/dman79/.config/broot/launcher/bash/br
