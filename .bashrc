@@ -50,5 +50,3 @@ export PYTHONDONTWRITEBYTECODE=X
 export PATH=$PATH:.:~/.local/bin:~/scripts
 export LS_COLORS=$LS_COLORS'di=0;36:ow=0;35:'
 export EDITOR=vim
-
-source /home/dman79/.config/broot/launcher/bash/br
