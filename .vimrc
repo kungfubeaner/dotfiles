@@ -9,6 +9,8 @@ set nohls
 set shortmess+=I
 set background=dark
 set splitbelow splitright
+set tabstop=4
+set shiftwidth=4
 if $TERM == "xterm-256color" | set t_Co=256 | endif
 if $TERM == "screen" | set t_Co=256 | endif
 autocmd filetype c nnoremap <buffer> <F5> :w<cr>:!rm %:r \| gcc -o %:r % && %:r<cr>
