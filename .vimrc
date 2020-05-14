@@ -64,6 +64,8 @@ nnoremap <A-t> <C-w>T
 nnoremap _ <C-w>_
 nnoremap <bar> <C-w><bar>
 nnoremap <A-r> <C-r>
+inoremap <A-r> <C-r>
+cnoremap <A-r> <C-r>
 nnoremap <C-r> <C-w>r
 nnoremap < <<
 nnoremap > >>
