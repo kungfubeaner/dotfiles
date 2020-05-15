@@ -6,7 +6,7 @@ set autoindent
 set backspace=indent,eol,start
 set nowrap
 set nohls
-set shortmess+=I
+set shortmess+=Ic
 set background=dark
 set splitbelow splitright
 set tabstop=4
@@ -66,6 +66,11 @@ nnoremap <bar> <C-w><bar>
 nnoremap <A-r> <C-r>
 inoremap <A-r> <C-r>
 cnoremap <A-r> <C-r>
+inoremap <A-;> <C-p>
+inoremap <expr> <A-o> pumvisible() ? "\<C-o>" : "\<C-x>\<C-o>"
+inoremap <expr> <A-j> pumvisible() ? "\<C-n>" : "\<A-j>"
+inoremap <expr> <A-k> pumvisible() ? "\<C-p>" : "\<A-k>"
+inoremap <expr> <A-l> pumvisible() ? "\<C-l>" : "\<C-x>\<C-l>"
 nnoremap <C-r> <C-w>r
 nnoremap < <<
 nnoremap > >>
@@ -76,6 +81,8 @@ vnoremap <A-l> :Enumerate<cr>
 vnoremap <A-L> :NL<cr>
 nnoremap j gj
 nnoremap k gk
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
 hi normal ctermbg=NONE guibg=NONE
 command! WipeReg for i in range(34,122) | silent! call setreg(nr2char(i), []) | endfor
 command! -range Enumerate let @z="0. " | exec <line1>.",".<line2>." normal! ^\"zP^\<C-a>^\"zy2w"
