@@ -76,6 +76,8 @@ nnoremap < <<
 nnoremap > >>
 vnoremap < <gv
 vnoremap > >gv
+vnoremap <A-j> :m '>+1<cr>gv
+vnoremap <A-k> :m '<-2<cr>gv
 vnoremap <C-c> "*y
 vnoremap <A-l> :Enumerate<cr>
 vnoremap <A-L> :NL<cr>
