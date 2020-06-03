@@ -3,7 +3,7 @@
 killall -q sxhkd &
 killall -q compton &
 killall -q polybar &
-sleep 0.1
+sleep 0.3
 
 sxhkd &
 compton &
