@@ -15,6 +15,7 @@ if $TERM == "xterm-256color" | set t_Co=256 | endif
 if $TERM == "screen" | set t_Co=256 | endif
 autocmd filetype c nnoremap <buffer> <F5> :w<cr>:!rm %:r \| gcc -o %:r % && %:r<cr>
 autocmd filetype cpp nnoremap <buffer> <F5> :w<cr>:!rm %:r \| g++ -o %:r % && %:r<cr>
+autocmd filetype cpp setlocal tabstop=3 shiftwidth=3
 autocmd filetype python nnoremap <buffer> <F5> :w<cr>:!%<cr>
 autocmd bufadd * set number
 autocmd termopen * set nonumber
@@ -78,7 +79,7 @@ vnoremap < <gv
 vnoremap > >gv
 vnoremap <A-j> :m '>+1<cr>gv
 vnoremap <A-k> :m '<-2<cr>gv
-vnoremap <C-c> "*y
+vnoremap <A-c> "*y
 vnoremap <A-l> :Enumerate<cr>
 vnoremap <A-L> :NL<cr>
 nnoremap j gj
