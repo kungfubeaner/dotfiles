@@ -85,6 +85,9 @@ vnoremap <A-L> :NL<cr>
 nnoremap j gj
 nnoremap k gk
 filetype plugin on
+let g:netrw_banner = 0
+let g:netrw_browse_split = 3
+let g:netrw_winsize = 25
 set omnifunc=syntaxcomplete#Complete
 hi normal ctermbg=NONE guibg=NONE
 command! WipeReg for i in range(34,122) | silent! call setreg(nr2char(i), []) | endfor
