@@ -86,8 +86,6 @@ nnoremap j gj
 nnoremap k gk
 filetype plugin on
 let g:netrw_banner = 0
-let g:netrw_browse_split = 3
-let g:netrw_winsize = 25
 let g:netrw_sort_sequence = "[\/]$,\<core\%(\.\d\+\)\=\>,\~\=\*$,*,\.swp$,\.bak$,\~$"
 set omnifunc=syntaxcomplete#Complete
 hi normal ctermbg=NONE guibg=NONE
