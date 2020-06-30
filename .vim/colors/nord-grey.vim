@@ -28,6 +28,7 @@ hi Function guifg=#8fbcbb ctermfg=109
 hi Identifier guifg=#91a8a5 ctermfg=102
 hi Ignore guifg=#666666 ctermfg=240
 hi IncSearch guifg=#dadad5 guibg=#d51487 gui=none ctermfg=162 ctermbg=255
+hi IncSearch guifg=#444444 guibg=#c6c6c6 gui=none ctermfg=238 ctermbg=251
 hi LineNr guifg=#666666 guibg=#121212 ctermfg=241 ctermbg=233
 hi MatchParen guifg=#a2a2a2 guibg=#088b8c ctermfg=251 ctermbg=30
 hi ModeMsg guifg=#5f87af ctermfg=67
