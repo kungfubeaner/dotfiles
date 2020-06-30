@@ -10,11 +10,11 @@ hi ColorColumn guibg=#262f21 ctermbg=235
 hi Comment guifg=#565656 ctermfg=240
 hi Conceal guifg=#87afaf guibg=#121212 gui=none ctermfg=109 ctermbg=233
 hi Constant guifg=#70a395 ctermfg=66
-hi Cursor guibg=#eeeeee ctermbg=172
+hi Cursor guibg=#eeeeee ctermbg=255
 hi CursorColumn guibg=#262626 ctermbg=235
-hi CursorIM guibg=#4a9f68 ctermbg=65
-hi CursorLine guibg=#262626 gui=none ctermbg=235 cterm=none
-hi CursorLineNr guifg=#5f8787 guibg=#262626 gui=none ctermfg=66 ctermbg=235
+hi CursorIM guibg=#1c1c1c ctermbg=234
+hi CursorLine guifg=#00af00 guibg=#1c1c1c gui=none ctermfg=34 ctermbg=234 cterm=none
+hi CursorLineNr guifg=#00af00 guibg=#1c1c1c gui=none ctermfg=34 ctermbg=234
 hi DiffAdd guibg=#013a06 gui=none ctermfg=71 ctermbg=16
 hi DiffChange guibg=#4a4707 ctermfg=178 ctermbg=235
 hi DiffDelete guifg=#491008 guibg=#491008 ctermfg=237 ctermbg=237
@@ -36,9 +36,9 @@ hi NonText guifg=#7878ba gui=none ctermfg=61
 hi Number guifg=#b48ead ctermfg=139
 hi Operator guifg=#8d89c7 ctermfg=103
 hi Pmenu guifg=#c6c6c6 guibg=#3a3a3a ctermfg=251 ctermbg=237
-hi PmenuSbar guifg=#a2a2a2 guibg=#3a3a3a ctermfg=251 ctermbg=237
+hi PmenuSbar guifg=#c6c6c6 guibg=#3a3a3a ctermfg=251 ctermbg=237
 hi PmenuSel guifg=#00af00 guibg=#1c1c1c gui=none ctermfg=34 ctermbg=234
-hi PmenuThumb guifg=#a2a2a2 guibg=#828282 gui=none ctermfg=251 ctermbg=247
+hi PmenuThumb guifg=#c6c6c6 guibg=#9e9e9e gui=none ctermfg=251 ctermbg=247
 hi PreProc guifg=#8d89c7 ctermfg=103
 hi Question guifg=#00a0a0 ctermfg=30
 hi Search guifg=#121713 guibg=#121212 ctermfg=233 ctermbg=66
