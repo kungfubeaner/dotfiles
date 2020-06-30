@@ -13,7 +13,7 @@ hi Constant guifg=#70a395 ctermfg=66
 hi Cursor guibg=#eeeeee ctermbg=255
 hi CursorColumn guibg=#262626 ctermbg=235
 hi CursorIM guibg=#1c1c1c ctermbg=234
-hi CursorLine guifg=#00af00 guibg=#1c1c1c gui=none ctermfg=34 ctermbg=234 cterm=none
+hi CursorLine guifg=#c6c6c6 guibg=#444444 gui=none ctermfg=251 ctermbg=238 cterm=none
 hi CursorLineNr guifg=#00af00 guibg=#1c1c1c gui=none ctermfg=34 ctermbg=234
 hi DiffAdd guibg=#013a06 gui=none ctermfg=71 ctermbg=16
 hi DiffChange guibg=#4a4707 ctermfg=178 ctermbg=235
