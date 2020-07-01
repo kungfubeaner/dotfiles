@@ -19,6 +19,7 @@ autocmd filetype cpp setlocal tabstop=3 shiftwidth=3
 autocmd filetype python nnoremap <buffer> <F5> :w<cr>:!%<cr>
 autocmd bufadd * set number
 autocmd termopen * set nonumber
+nnoremap <A-o> <C-o>
 nnoremap <C-D> <C-B>
 nnoremap <A-=> <C-w>=
 nnoremap <A-f> <C-w>_<C-w>\|
