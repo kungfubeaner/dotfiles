@@ -28,9 +28,13 @@ nnoremap <C-k> <C-w>+
 nnoremap <C-l> <C-w>>
 nnoremap <C-h> <C-w><
 nnoremap <A-i> gt
+inoremap <A-i> <esc>gt
 nnoremap <A-u> gT
+inoremap <A-u> <esc>gT
 nnoremap <A-I> :tabm +1<cr>
+inoremap <A-I> <esc>:tabm +1<cr>
 nnoremap <A-U> :tabm -1<cr>
+inoremap <A-U> <esc>:tabm -1<cr>
 nnoremap <F3> :set rnu!<cr>
 nnoremap <A-Bslash> :vs \| :term<cr>
 nnoremap <C-Bslash> :tabe \| :term<cr>
@@ -57,7 +61,7 @@ nnoremap <A-K> <C-w>K
 nnoremap <A-L> <C-w>L
 nnoremap <A-H> <C-w>H
 nnoremap <A-w> :w<cr>
-inoremap <A-w> <esc>:w<cr>
+inoremap <A-w> <esc>:w<cr>i
 nnoremap <A-q> :q<cr>
 inoremap <A-q> <esc>:q<cr>
 nnoremap <A-Q> :q!<cr>
