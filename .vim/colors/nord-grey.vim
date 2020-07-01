@@ -28,7 +28,7 @@ hi Function guifg=#8fbcbb ctermfg=109
 hi Identifier guifg=#91a8a5 ctermfg=102
 hi Ignore guifg=#666666 ctermfg=240
 hi IncSearch guifg=#dadad5 guibg=#d51487 gui=none ctermfg=162 ctermbg=255
-hi IncSearch guifg=#444444 guibg=#c6c6c6 gui=none ctermfg=238 ctermbg=251
+hi IncSearch guifg=#c6c6c6 guibg=#444444 gui=none ctermfg=251 ctermbg=238
 hi LineNr guifg=#666666 guibg=#121212 ctermfg=241 ctermbg=233
 hi MatchParen guifg=#a2a2a2 guibg=#088b8c ctermfg=251 ctermbg=30
 hi ModeMsg guifg=#5f87af ctermfg=67
@@ -59,6 +59,7 @@ hi String guifg=#a3be8c ctermfg=108
 hi TabLine guifg=#b2b5b2 guibg=#3a3a3a gui=none ctermfg=247 ctermbg=237 cterm=none
 hi TabLineFill guifg=#3a3a3a guibg=#3a3a3a gui=none ctermfg=237 ctermbg=247
 hi TabLineSel guifg=#d789c8 gui=none ctermfg=139 cterm=none
+hi TabLineSel guifg=#00af00 gui=none ctermfg=34 cterm=none
 hi Tag guifg=#d38d6b ctermfg=137
 hi Title guifg=#a7a053 gui=none ctermfg=101
 hi Todo guifg=#fdfec9 guibg=#1c1c1c ctermfg=187 ctermbg=234
