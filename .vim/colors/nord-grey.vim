@@ -36,7 +36,7 @@ hi MoreMsg guifg=#add581 ctermfg=108
 hi NonText guifg=#7878ba gui=none ctermfg=61
 hi Number guifg=#b48ead ctermfg=139
 hi Operator guifg=#8d89c7 ctermfg=103
-hi Pmenu guifg=#c6c6c6 guibg=#3a3a3a ctermfg=251 ctermbg=237
+hi Pmenu guifg=#b2b2b2 guibg=#3a3a3a ctermfg=249 ctermbg=237
 hi PmenuSbar guifg=#c6c6c6 guibg=#3a3a3a ctermfg=251 ctermbg=237
 hi PmenuSel guifg=#00af00 guibg=#1c1c1c gui=none ctermfg=34 ctermbg=234
 hi PmenuThumb guifg=#c6c6c6 guibg=#9e9e9e gui=none ctermfg=251 ctermbg=247
