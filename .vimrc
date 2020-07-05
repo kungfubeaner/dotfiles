@@ -13,6 +13,7 @@ set tabstop=4
 set shiftwidth=4
 if $TERM == "xterm-256color" | set t_Co=256 | endif
 if $TERM == "screen" | set t_Co=256 | endif
+autocmd BufNewFile,BufRead * setlocal formatoptions-=cro
 autocmd filetype c nnoremap <buffer> <F5> :w<cr>:!rm %:r \| gcc -o %:r % && %:r<cr>
 autocmd filetype c nnoremap <buffer> <F5> :w<cr>:!rm %:r \| make && %:r<cr>
 autocmd filetype c nnoremap <buffer> <F7> :!%:r<cr>
