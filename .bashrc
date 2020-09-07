@@ -25,14 +25,14 @@ alias trans='trans :en+es -b'
 alias vimode='set -o vi && bind "set show-mode-in-prompt on"'
 alias emacsmode='set -o emacs && bind "set show-mode-in-prompt off"'
 alias getip='curl -s checkip.dyndns.org | sed -n "s/.*\(IP Address: .*\)<\/b.*$/\n  \1\n/p"'
-alias weather2='echo -e "\n$(curl -s "wttr.in/{Houston,Hesperia}?format=%20%20%l,%20%c%20%20%C,%20%t,%20%w")\n"'
+alias weather2='echo -e "\n$(curl -s "wttr.in/{Houston,Hesperia}?format=%20%20%l,%20%c%20%20%C,%20%t,%20%w\n")\n"'
 alias gold='curl -sL https://kitco.com | sed -n "s/.*AU-low.>\([0-9]\{1,4\}\.[0-9]\{2\}\).*AU-high.>\([0-9]\{1,4\}\.[0-9]\{2\}\).*$/\n  Gold Price:\n  low:\1  high:\2\n/p"'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias mapscii='telnet mapscii.me'
 
 moon() { echo; curl -s wttr.in/Moon@$1 | head -n 24; }
 weather() { echo; curl -s wttr.in/$1 | sed "s/Follow.*//g"; }
-weather3() { echo -e "\n$(curl -s wttr.in/{$(echo $@ | sed 's/ /%20/g')}?format="%13%20%20%l,%20%c%20%20%C,%20%t,%20%w")\n"; }
+weather3() { echo -e "\n$(curl -s wttr.in/{$(echo $@ | sed 's/ /%20/g')}?format="%13%20%20%l,%20%c%20%20%C,%20%t,%20%w\n")\n"; }
 clbin() { cat $1 | curl -F 'clbin=<-' https://clbin.com; }
 ipinfo() { ping -4 -c 1 $1 2> /dev/null | curl -s ipinfo.io/$(awk 'NR==1 {print substr($3,2,length($3)-2)}') | sed 's/[{},\"]//g;s/.*missingauth//g'; }
 github() { if [[ -z "$1" ]]; then r=kungfubeaner; else r=$1; fi; curl -s https://api.github.com/users/$r/repos?per_page=1000 | jq .[].git_url | sed 's/git:/https:/g;s/\"//g'; }
