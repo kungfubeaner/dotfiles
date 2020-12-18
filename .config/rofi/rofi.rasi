@@ -1,15 +1,15 @@
 * {
-    background-color:            #222222;
-    border-color:                #222222;
+    background-color:            #18191D;
+    border-color:                #18191D;
     text-color:                  #bbbbbb;
     font:                        "Cantarell 11";
     prompt-font:                 "Cantarell 10";
     prompt-background:           #1a8771;
     prompt-foreground:           #111111;
     prompt-padding:              4px;
-    alternate-normal-background: #222222;
+    alternate-normal-background: #18191D;
     alternate-normal-foreground: @text-color;
-    selected-normal-background:  #363636;
+    selected-normal-background:  #33393F;
     selected-normal-foreground:  #3AB29B;
     spacing:                     3;
 }
@@ -19,6 +19,7 @@
     padding: 0px;
 	border-radius:	5px;
 	border-color:	#3AB29B;
+	border-color:	#7AA9B2;
 }
 
 #mainbox {
