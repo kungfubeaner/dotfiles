@@ -20,7 +20,9 @@ alias ll='ls -alF'
 alias la='ls -AF'
 alias l='ls -CF'
 
-alias aur=yay
+alias yay='yay --color=always'
+alias aur='yay --color=always'
+alias pacman='pacman --color=always'
 alias trans='trans :en+es -b'
 alias vimode='set -o vi && bind "set show-mode-in-prompt on"'
 alias emacsmode='set -o emacs && bind "set show-mode-in-prompt off"'
@@ -51,3 +53,4 @@ export PYTHONDONTWRITEBYTECODE=X
 export PATH=$PATH:.:~/.local/bin:~/scripts
 export LS_COLORS=$LS_COLORS'di=0;36:ow=0;35:'
 export EDITOR=vim
+export PICO_SDK_PATH=/opt/pico-sdk
