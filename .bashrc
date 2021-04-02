@@ -22,6 +22,7 @@ alias l='ls -CF'
 
 alias yay='yay --color=always'
 alias aur='yay --color=always'
+alias less="less -R"
 alias pacman='pacman --color=always'
 alias trans='trans :en+es -b'
 alias vimode='set -o vi && bind "set show-mode-in-prompt on"'
